@@ -1,0 +1,23 @@
+private int i;
+i = 5;
+int j;
+j = 8;
+i = 3;
+String s;
+s = "bier";
+char c;
+c = 'd';
+c = 'p';
+
+method int xy() { 
+	int k;
+	k = 100000;
+}
+
+method int felser(int a, int asdf, String trolo) {
+	int x;
+	x = 500;
+}
+
+String b;
+b = "pils";

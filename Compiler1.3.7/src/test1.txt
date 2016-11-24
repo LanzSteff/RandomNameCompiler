@@ -1,0 +1,18 @@
+int y;
+y = 50;
+
+method int test() {
+	int i;
+	i = 5+1;
+	y = y + 1;
+	
+	return i+5;
+}
+
+
+method void main() {
+	int j;
+	j = 3;
+	j = test();
+	j = (j+2)*3;
+}

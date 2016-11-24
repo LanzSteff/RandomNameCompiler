@@ -1,0 +1,38 @@
+int xy;
+xy = 105;
+
+method int even(int num);
+method int odd(int num);
+
+method int even(int num) {
+	String s;
+			s = "grod";
+			printf(s);
+			num = num-1;
+			return num;
+}
+    
+method int odd(int num) {
+	String s;
+			s = "ungrod";
+			printf(s);
+			num = num-1;
+			return num;
+}
+
+method void main() {
+	int i;
+	i = 10+1;
+	
+	while (i > 0) {
+		if ((i%2) == 0) {
+			i = even(i);
+		}
+		
+		else {
+			i = odd(i);
+		}
+		
+		xy = xy +1;
+	}
+}

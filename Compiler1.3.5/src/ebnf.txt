@@ -1,0 +1,33 @@
+EBNF
+
+digit = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9".
+letter = "A" | "B" | "C" | "D" | "E" | "F" | "G" | "H" | "I" | "J" | "K" | "L" | "M" | "N" | "O" | "P" | "Q" | "R" | "S" | "T" | "U" | "V" | "W" | "X" | "Y" | "Z" | 
+		 "a" | "b" | "c" | "d" | "e" | "f" | "g" | "h" | "i" | "j" | "k" | "l" | "m" | "n" | "o" | "p" | "q" | "r" | "s" | "t" | "u" | "v" | "w" | "x" | "y" | "z" | 
+		 "_" | ".".
+
+number = digit {digit}.
+identifier = letter {letter | digit}.
+string = """ {number | identifier} """.
+char = "'" letter "'".
+type = ["public" | "private"] "int" | "String" | "char" | "void" | "boolean" | "class".
+
+factor = identifier | number | string | char | null | "(" expression ")" | methodcall | ("!" factor).
+term = factor {("*" | "/" | "%") factor}.
+subexpression = ["-"] term {("+" | "-") term}.
+expression = subexpression [("==" | "!=" | "<" | ">" | "<=" | ">=") subexpression].
+assignment = identifier "=" ["new"] expression[("[" expression "]") | "()"].
+declaration = type["[]"] identifier["{" declaration "}"] ["=" expression].
+statement = (assignment | declaration | methodcall | return) ";" | ifstatement | whilestatement.
+
+method = "method" methodhead "{" methodbody "}".
+methodhead = type identifier "(" [parameter] ")".
+parameter = type identifier {"," parameter}.
+methodbody = {statement}.
+
+methodcall = identifier "(" [expression {"," expression}] ")".
+return = "return" expression.
+ifstatement = "if" "(" expression {("&&" | "||") expression} ")" body {"else if" "(" expression {("&&" | "||") expression} ")" body} | ["else" body].
+body = statement | "{" {statement} "}".
+whilestatement = "while" "(" expression {("&&" | "||") expression} ")" body.
+
+syntax = {method} {statement}.

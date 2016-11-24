@@ -1,0 +1,46 @@
+//public class Parser {
+	//private Scanner scanner;
+	private int token;
+	private int nextToken;
+	//SymbolTable st;
+	
+	private boolean isParameter;
+	
+	method public void Parser(String filename) {
+		//scanner = new Scanner();
+		scanner.openFile(filename);
+		//st = new SymbolTable();
+		isParameter = false;
+	}
+
+	method public void parse() {
+		token = scanner.readToken();
+		nextToken = scanner.readToken();
+		//if(token != _EOF)
+			syntax();
+		//else System.err.println("EOF reached");
+	}
+	
+	method private void getNextToken()  {
+		token = nextToken;
+		nextToken = scanner.readToken();
+	}
+	
+	method private void syntax() {
+		//syntax = {methodod} {statement}.
+		while(token != scanner._EOF && nextToken != scanner._EOF) {
+			
+			//if(token == scanner._RBRACE || token == scanner._SEMIKOLON || token == scanner._LBRACE) {
+				System.out.println("ERROR - Sign not expected (Line ~" + scanner.getLine() + ")");
+				getNextToken();
+		//	}
+			
+			if(token != scanner._METHOD) {
+				statement();
+			}
+			
+			else {
+				method();
+			}
+		}
+	}

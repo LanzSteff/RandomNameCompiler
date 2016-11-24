@@ -1,0 +1,31 @@
+EBNF
+
+digit = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9".
+letter = "A" | ... | "Z" | "a" | ... | "z" | "_".
+
+number = [-] digit {digit}.
+identifier = letter {letter | digit}.
+string = """ {number | identifier} """.
+char = "'" letter "'".
+type = ["public" | "private"] "int" | "String" | "char" | "void" | "boolean" | "class".
+
+factor = identifier | number | string | char | null | "(" expression ")" | methodcall | ("!" factor).
+term = factor {("*" | "/" | "%") factor}.
+subexpression = ["-"] term {("+" | "-") term}.
+expression = subexpression [("==" | "!=" | "<" | ">" | "<=" | ">=") subexpression].
+assignment = [type] identifier "=" expression.
+declaration = type identifier ["[" expression "]"].
+statement = (assignment | declaration | methodcall | return) ";" | ifstatement | whilestatement.
+
+method = "method" methodhead "{" methodbody "}".
+methodhead = type identifier "(" [parameter] ")".
+parameter = type identifier {"," parameter}.
+methodbody = {statement}.
+
+methodcall = identifier "(" [expression {"," expression}] ")".
+return = "return" expression.
+ifstatement = "if" "(" expression {("&&" | "||") expression} ")" body {"else if" "(" expression {("&&" | "||") expression} ")" body} | ["else" body].
+body = statement | "{" {statement} "}".
+whilestatement = "while" "(" expression {("&&" | "||") expression} ")" body.
+
+syntax = {method} {statement}.

@@ -1,0 +1,42 @@
+private int i;
+i = 5;
+int j;
+j = 8;
+i = 3;
+
+method int xy() { 
+	int k;
+	k = 100000;
+}
+
+method int felser(int a, int asdf, String trolo) {
+	int x;
+	x = 500;
+}
+
+String b;
+b = "pils";
+
+if(i<5) 
+	int z;
+elseif(i>5)
+	z = 1;
+else
+	j = 2;
+char y;
+
+if(j<5) {
+	char c;
+}
+elseif(j>5) {
+	c = 'c';
+}
+else {
+	c = 'n';
+}
+
+while(i == 5)
+	boolean t;
+t = false;
+
+String s;

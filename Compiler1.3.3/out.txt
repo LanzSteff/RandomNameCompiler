@@ -1,0 +1,3229 @@
+import - 45
+identifier 'java' - 2
+. - 22
+identifier 'io' - 2
+. - 22
+* - 19
+; - 20
+public - 56
+class - 42
+identifier 'Scanner' - 2
+{ - 12
+private - 55
+final - 48
+int - 30
+identifier '_NUMBER' - 2
+= - 14
+number '1' - 1
+, - 21
+identifier '_IDENTIFIER' - 2
+= - 14
+number '2' - 1
+, - 21
+identifier '_NOT' - 2
+= - 14
+number '3' - 1
+, - 21
+identifier '_QUOTE' - 2
+= - 14
+number '4' - 1
+, - 21
+identifier '_PERCENT' - 2
+= - 14
+number '5' - 1
+, - 21
+identifier '_AND' - 2
+= - 14
+number '6' - 1
+, - 21
+identifier '_SLASH' - 2
+= - 14
+number '7' - 1
+, - 21
+identifier '_LPAREN' - 2
+= - 14
+number '8' - 1
+, - 21
+identifier '_RPAREN' - 2
+= - 14
+number '9' - 1
+, - 21
+identifier '_LBRACK' - 2
+= - 14
+number '10' - 1
+, - 21
+identifier '_RBRACK' - 2
+= - 14
+number '11' - 1
+, - 21
+identifier '_LBRACE' - 2
+= - 14
+number '12' - 1
+, - 21
+identifier '_RBRACE' - 2
+= - 14
+number '13' - 1
+, - 21
+identifier '_ASSIGN' - 2
+= - 14
+number '14' - 1
+, - 21
+identifier '_CHAR' - 2
+= - 14
+number '15' - 1
+, - 21
+identifier '_SQUOTE' - 2
+= - 14
+number '16' - 1
+, - 21
+identifier '_PLUS' - 2
+= - 14
+number '17' - 1
+, - 21
+identifier '_MINUS' - 2
+= - 14
+number '18' - 1
+, - 21
+identifier '_TIMES' - 2
+= - 14
+number '19' - 1
+, - 21
+identifier '_SEMIKOLON' - 2
+= - 14
+number '20' - 1
+, - 21
+identifier '_COMMA' - 2
+= - 14
+number '21' - 1
+, - 21
+identifier '_DOT' - 2
+= - 14
+number '22' - 1
+, - 21
+identifier '_GREATER' - 2
+= - 14
+number '23' - 1
+, - 21
+identifier '_LESS' - 2
+= - 14
+number '24' - 1
+, - 21
+identifier '_OR' - 2
+= - 14
+number '25' - 1
+, - 21
+identifier '_IF' - 2
+= - 14
+number '27' - 1
+, - 21
+identifier '_ELSE' - 2
+= - 14
+number '28' - 1
+, - 21
+identifier '_WHILE' - 2
+= - 14
+number '29' - 1
+, - 21
+identifier '_INT' - 2
+= - 14
+number '30' - 1
+, - 21
+identifier '_ARRAY' - 2
+= - 14
+number '31' - 1
+, - 21
+identifier '_STRING' - 2
+= - 14
+number '32' - 1
+, - 21
+identifier '_VOID' - 2
+= - 14
+number '33' - 1
+, - 21
+identifier '_BOOLEAN' - 2
+= - 14
+number '34' - 1
+, - 21
+identifier '_GEQ' - 2
+= - 14
+number '35' - 1
+, - 21
+identifier '_LEQ' - 2
+= - 14
+number '36' - 1
+, - 21
+identifier '_NOTEQ' - 2
+= - 14
+number '37' - 1
+, - 21
+identifier '_EQUAL' - 2
+= - 14
+number '38' - 1
+, - 21
+identifier '_INCREMENT' - 2
+= - 14
+number '39' - 1
+, - 21
+identifier '_DECREMENT' - 2
+= - 14
+number '40' - 1
+, - 21
+identifier '_BREAK' - 2
+= - 14
+number '41' - 1
+, - 21
+identifier '_CLASS' - 2
+= - 14
+number '42' - 1
+, - 21
+identifier '_CONTINUE' - 2
+= - 14
+number '43' - 1
+, - 21
+identifier '_DEFAULT' - 2
+= - 14
+number '44' - 1
+, - 21
+identifier '_IMPORT' - 2
+= - 14
+number '45' - 1
+, - 21
+identifier '_DO' - 2
+= - 14
+number '47' - 1
+, - 21
+identifier '_FINAL' - 2
+= - 14
+number '48' - 1
+, - 21
+identifier '_NULL' - 2
+= - 14
+number '49' - 1
+, - 21
+identifier '_NEW' - 2
+= - 14
+number '50' - 1
+, - 21
+identifier '_RETURN' - 2
+= - 14
+number '51' - 1
+, - 21
+identifier '_PRIVATE' - 2
+= - 14
+number '55' - 1
+, - 21
+identifier '_PUBLIC' - 2
+= - 14
+number '56' - 1
+, - 21
+identifier '_STATIC' - 2
+= - 14
+number '57' - 1
+; - 20
+private - 55
+final - 48
+int - 30
+identifier 'EOF' - 2
+= - 14
+number '65535' - 1
+; - 20
+private - 55
+String - 32
+identifier 'value' - 2
+; - 20
+private - 55
+identifier 'InputStreamReader' - 2
+identifier 'reader' - 2
+; - 20
+private - 55
+char - 15
+identifier 'nextChar' - 2
+; - 20
+public - 56
+void - 33
+identifier 'openFile' - 2
+( - 8
+String - 32
+identifier 'fName' - 2
+) - 9
+identifier 'throws' - 2
+identifier 'FileNotFoundException' - 2
+{ - 12
+identifier 'reader' - 2
+= - 14
+new - 50
+identifier 'InputStreamReader' - 2
+( - 8
+new - 50
+identifier 'FileInputStream' - 2
+( - 8
+identifier 'fName' - 2
+) - 9
+) - 9
+; - 20
+} - 13
+private - 55
+boolean - 34
+identifier 'checkLetter' - 2
+( - 8
+char - 15
+identifier 'ch' - 2
+) - 9
+{ - 12
+if - 27
+( - 8
+identifier 'ch' - 2
+>= - 35
+singlechar 'A' - 16
+&& - 6
+identifier 'ch' - 2
+<= - 36
+singlechar 'Z' - 16
+|| - 25
+identifier 'ch' - 2
+>= - 35
+singlechar 'a' - 16
+&& - 6
+identifier 'ch' - 2
+<= - 36
+singlechar 'z' - 16
+) - 9
+return - 51
+identifier 'true' - 2
+; - 20
+return - 51
+identifier 'false' - 2
+; - 20
+} - 13
+private - 55
+boolean - 34
+identifier 'checkDigit' - 2
+( - 8
+char - 15
+identifier 'ch' - 2
+) - 9
+{ - 12
+if - 27
+( - 8
+identifier 'ch' - 2
+>= - 35
+singlechar '0' - 16
+&& - 6
+identifier 'ch' - 2
+<= - 36
+singlechar '9' - 16
+) - 9
+return - 51
+identifier 'true' - 2
+; - 20
+return - 51
+identifier 'false' - 2
+; - 20
+} - 13
+private - 55
+char - 15
+identifier 'getNextChar' - 2
+( - 8
+) - 9
+identifier 'throws' - 2
+identifier 'IOException' - 2
+{ - 12
+char - 15
+identifier 'ch' - 2
+= - 14
+( - 8
+char - 15
+) - 9
+identifier 'reader' - 2
+. - 22
+identifier 'read' - 2
+( - 8
+) - 9
+; - 20
+return - 51
+identifier 'ch' - 2
+; - 20
+} - 13
+private - 55
+char - 15
+identifier 'readToNextChar' - 2
+( - 8
+) - 9
+identifier 'throws' - 2
+identifier 'IOException' - 2
+{ - 12
+if - 27
+( - 8
+identifier 'nextChar' - 2
+!= - 37
+number '0' - 1
+&& - 6
+identifier 'nextChar' - 2
+!= - 37
+singlechar ' ' - 16
+&& - 6
+identifier 'nextChar' - 2
+!= - 37
+singlechar '\n' - 16
+&& - 6
+identifier 'nextChar' - 2
+!= - 37
+singlechar '\t' - 16
+) - 9
+return - 51
+identifier 'nextChar' - 2
+; - 20
+char - 15
+identifier 'ch' - 2
+= - 14
+identifier 'getNextChar' - 2
+( - 8
+) - 9
+; - 20
+while - 29
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar ' ' - 16
+|| - 25
+identifier 'ch' - 2
+== - 38
+singlechar '\n' - 16
+|| - 25
+identifier 'ch' - 2
+== - 38
+singlechar '\t' - 16
+) - 9
+identifier 'ch' - 2
+= - 14
+identifier 'getNextChar' - 2
+( - 8
+) - 9
+; - 20
+return - 51
+identifier 'ch' - 2
+; - 20
+} - 13
+private - 55
+int - 30
+identifier 'checkKeyword' - 2
+( - 8
+String - 32
+identifier 'id' - 2
+) - 9
+{ - 12
+if - 27
+( - 8
+identifier 'id' - 2
+. - 22
+identifier 'compareTo' - 2
+( - 8
+stringvalue 'if' - 4
+) - 9
+== - 38
+number '0' - 1
+) - 9
+return - 51
+identifier '_IF' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'id' - 2
+. - 22
+identifier 'compareTo' - 2
+( - 8
+stringvalue 'else' - 4
+) - 9
+== - 38
+number '0' - 1
+) - 9
+return - 51
+identifier '_ELSE' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'id' - 2
+. - 22
+identifier 'compareTo' - 2
+( - 8
+stringvalue 'while' - 4
+) - 9
+== - 38
+number '0' - 1
+) - 9
+return - 51
+identifier '_WHILE' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'id' - 2
+. - 22
+identifier 'compareTo' - 2
+( - 8
+stringvalue 'do' - 4
+) - 9
+== - 38
+number '0' - 1
+) - 9
+return - 51
+identifier '_DO' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'id' - 2
+. - 22
+identifier 'compareTo' - 2
+( - 8
+stringvalue 'int' - 4
+) - 9
+== - 38
+number '0' - 1
+) - 9
+return - 51
+identifier '_INT' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'id' - 2
+. - 22
+identifier 'compareTo' - 2
+( - 8
+stringvalue 'char' - 4
+) - 9
+== - 38
+number '0' - 1
+) - 9
+return - 51
+identifier '_CHAR' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'id' - 2
+. - 22
+identifier 'compareTo' - 2
+( - 8
+stringvalue 'String' - 4
+) - 9
+== - 38
+number '0' - 1
+) - 9
+return - 51
+identifier '_STRING' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'id' - 2
+. - 22
+identifier 'compareTo' - 2
+( - 8
+stringvalue 'boolean' - 4
+) - 9
+== - 38
+number '0' - 1
+) - 9
+return - 51
+identifier '_BOOLEAN' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'id' - 2
+. - 22
+identifier 'compareTo' - 2
+( - 8
+stringvalue 'break' - 4
+) - 9
+== - 38
+number '0' - 1
+) - 9
+return - 51
+identifier '_BREAK' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'id' - 2
+. - 22
+identifier 'compareTo' - 2
+( - 8
+stringvalue 'class' - 4
+) - 9
+== - 38
+number '0' - 1
+) - 9
+return - 51
+identifier '_CLASS' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'id' - 2
+. - 22
+identifier 'compareTo' - 2
+( - 8
+stringvalue 'continue' - 4
+) - 9
+== - 38
+number '0' - 1
+) - 9
+return - 51
+identifier '_CONTINUE' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'id' - 2
+. - 22
+identifier 'compareTo' - 2
+( - 8
+stringvalue 'default' - 4
+) - 9
+== - 38
+number '0' - 1
+) - 9
+return - 51
+identifier '_DEFAULT' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'id' - 2
+. - 22
+identifier 'compareTo' - 2
+( - 8
+stringvalue 'public' - 4
+) - 9
+== - 38
+number '0' - 1
+) - 9
+return - 51
+identifier '_PUBLIC' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'id' - 2
+. - 22
+identifier 'compareTo' - 2
+( - 8
+stringvalue 'private' - 4
+) - 9
+== - 38
+number '0' - 1
+) - 9
+return - 51
+identifier '_PRIVATE' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'id' - 2
+. - 22
+identifier 'compareTo' - 2
+( - 8
+stringvalue 'static' - 4
+) - 9
+== - 38
+number '0' - 1
+) - 9
+return - 51
+identifier '_STATIC' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'id' - 2
+. - 22
+identifier 'compareTo' - 2
+( - 8
+stringvalue 'final' - 4
+) - 9
+== - 38
+number '0' - 1
+) - 9
+return - 51
+identifier '_FINAL' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'id' - 2
+. - 22
+identifier 'compareTo' - 2
+( - 8
+stringvalue 'null' - 4
+) - 9
+== - 38
+number '0' - 1
+) - 9
+return - 51
+identifier '_NULL' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'id' - 2
+. - 22
+identifier 'compareTo' - 2
+( - 8
+stringvalue 'void' - 4
+) - 9
+== - 38
+number '0' - 1
+) - 9
+return - 51
+identifier '_VOID' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'id' - 2
+. - 22
+identifier 'compareTo' - 2
+( - 8
+stringvalue 'import' - 4
+) - 9
+== - 38
+number '0' - 1
+) - 9
+return - 51
+identifier '_IMPORT' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'id' - 2
+. - 22
+identifier 'compareTo' - 2
+( - 8
+stringvalue 'new' - 4
+) - 9
+== - 38
+number '0' - 1
+) - 9
+return - 51
+identifier '_NEW' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'id' - 2
+. - 22
+identifier 'compareTo' - 2
+( - 8
+stringvalue 'return' - 4
+) - 9
+== - 38
+number '0' - 1
+) - 9
+return - 51
+identifier '_RETURN' - 2
+; - 20
+identifier 'value' - 2
+= - 14
+identifier 'id' - 2
+; - 20
+return - 51
+identifier '_IDENTIFIER' - 2
+; - 20
+} - 13
+private - 55
+int - 30
+identifier 'readToken' - 2
+( - 8
+) - 9
+identifier 'throws' - 2
+identifier 'IOException' - 2
+{ - 12
+identifier 'value' - 2
+= - 14
+stringvalue '' - 4
+; - 20
+String - 32
+identifier 'token' - 2
+= - 14
+stringvalue '' - 4
+; - 20
+char - 15
+identifier 'ch' - 2
+= - 14
+identifier 'readToNextChar' - 2
+( - 8
+) - 9
+; - 20
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+identifier 'EOF' - 2
+) - 9
+return - 51
+- - 18
+number '1' - 1
+; - 20
+identifier 'nextChar' - 2
+= - 14
+number '0' - 1
+; - 20
+if - 27
+( - 8
+identifier 'checkLetter' - 2
+( - 8
+identifier 'ch' - 2
+) - 9
+|| - 25
+identifier 'ch' - 2
+== - 38
+singlechar '_' - 16
+) - 9
+{ - 12
+identifier 'token' - 2
++ - 17
+= - 14
+identifier 'ch' - 2
+; - 20
+identifier 'ch' - 2
+= - 14
+identifier 'getNextChar' - 2
+( - 8
+) - 9
+; - 20
+while - 29
+( - 8
+identifier 'checkLetter' - 2
+( - 8
+identifier 'ch' - 2
+) - 9
+|| - 25
+identifier 'checkDigit' - 2
+( - 8
+identifier 'ch' - 2
+) - 9
+|| - 25
+identifier 'ch' - 2
+== - 38
+singlechar '_' - 16
+) - 9
+{ - 12
+identifier 'token' - 2
++ - 17
+= - 14
+identifier 'ch' - 2
+; - 20
+identifier 'ch' - 2
+= - 14
+identifier 'getNextChar' - 2
+( - 8
+) - 9
+; - 20
+} - 13
+identifier 'nextChar' - 2
+= - 14
+identifier 'ch' - 2
+; - 20
+return - 51
+identifier 'checkKeyword' - 2
+( - 8
+identifier 'token' - 2
+) - 9
+; - 20
+} - 13
+else - 28
+if - 27
+( - 8
+identifier 'checkDigit' - 2
+( - 8
+identifier 'ch' - 2
+) - 9
+) - 9
+{ - 12
+identifier 'token' - 2
++ - 17
+= - 14
+identifier 'ch' - 2
+; - 20
+identifier 'ch' - 2
+= - 14
+identifier 'getNextChar' - 2
+( - 8
+) - 9
+; - 20
+while - 29
+( - 8
+identifier 'checkDigit' - 2
+( - 8
+identifier 'ch' - 2
+) - 9
+) - 9
+{ - 12
+identifier 'token' - 2
++ - 17
+= - 14
+identifier 'ch' - 2
+; - 20
+identifier 'ch' - 2
+= - 14
+identifier 'getNextChar' - 2
+( - 8
+) - 9
+; - 20
+} - 13
+identifier 'nextChar' - 2
+= - 14
+identifier 'ch' - 2
+; - 20
+identifier 'value' - 2
+= - 14
+identifier 'token' - 2
+; - 20
+return - 51
+identifier '_NUMBER' - 2
+; - 20
+} - 13
+else - 28
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '(' - 16
+) - 9
+return - 51
+identifier '_LPAREN' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar ')' - 16
+) - 9
+return - 51
+identifier '_RPAREN' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '{' - 16
+) - 9
+return - 51
+identifier '_LBRACE' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '}' - 16
+) - 9
+return - 51
+identifier '_RBRACE' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar ';' - 16
+) - 9
+return - 51
+identifier '_SEMIKOLON' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar ',' - 16
+) - 9
+return - 51
+identifier '_COMMA' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '.' - 16
+) - 9
+return - 51
+identifier '_DOT' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '%' - 16
+) - 9
+return - 51
+identifier '_PERCENT' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar ']' - 16
+) - 9
+return - 51
+identifier '_RBRACK' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '*' - 16
+) - 9
+return - 51
+identifier '_TIMES' - 2
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '=' - 16
+) - 9
+{ - 12
+identifier 'ch' - 2
+= - 14
+identifier 'getNextChar' - 2
+( - 8
+) - 9
+; - 20
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '=' - 16
+) - 9
+return - 51
+identifier '_EQUAL' - 2
+; - 20
+identifier 'nextChar' - 2
+= - 14
+identifier 'ch' - 2
+; - 20
+return - 51
+identifier '_ASSIGN' - 2
+; - 20
+} - 13
+else - 28
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '!' - 16
+) - 9
+{ - 12
+identifier 'ch' - 2
+= - 14
+identifier 'getNextChar' - 2
+( - 8
+) - 9
+; - 20
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '=' - 16
+) - 9
+return - 51
+identifier '_NOTEQ' - 2
+; - 20
+identifier 'nextChar' - 2
+= - 14
+identifier 'ch' - 2
+; - 20
+return - 51
+identifier '_NOT' - 2
+; - 20
+} - 13
+else - 28
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '+' - 16
+) - 9
+{ - 12
+identifier 'ch' - 2
+= - 14
+identifier 'getNextChar' - 2
+( - 8
+) - 9
+; - 20
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '+' - 16
+) - 9
+return - 51
+identifier '_INCREMENT' - 2
+; - 20
+identifier 'nextChar' - 2
+= - 14
+identifier 'ch' - 2
+; - 20
+return - 51
+identifier '_PLUS' - 2
+; - 20
+} - 13
+else - 28
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '-' - 16
+) - 9
+{ - 12
+identifier 'ch' - 2
+= - 14
+identifier 'getNextChar' - 2
+( - 8
+) - 9
+; - 20
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '-' - 16
+) - 9
+return - 51
+identifier '_DECREMENT' - 2
+; - 20
+identifier 'nextChar' - 2
+= - 14
+identifier 'ch' - 2
+; - 20
+return - 51
+identifier '_MINUS' - 2
+; - 20
+} - 13
+else - 28
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '>' - 16
+) - 9
+{ - 12
+identifier 'ch' - 2
+= - 14
+identifier 'getNextChar' - 2
+( - 8
+) - 9
+; - 20
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '=' - 16
+) - 9
+return - 51
+identifier '_GEQ' - 2
+; - 20
+identifier 'nextChar' - 2
+= - 14
+identifier 'ch' - 2
+; - 20
+return - 51
+identifier '_GREATER' - 2
+; - 20
+} - 13
+else - 28
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '<' - 16
+) - 9
+{ - 12
+identifier 'ch' - 2
+= - 14
+identifier 'getNextChar' - 2
+( - 8
+) - 9
+; - 20
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '=' - 16
+) - 9
+return - 51
+identifier '_LEQ' - 2
+; - 20
+identifier 'nextChar' - 2
+= - 14
+identifier 'ch' - 2
+; - 20
+return - 51
+identifier '_LEQ' - 2
+; - 20
+} - 13
+else - 28
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '&' - 16
+) - 9
+{ - 12
+identifier 'ch' - 2
+= - 14
+identifier 'getNextChar' - 2
+( - 8
+) - 9
+; - 20
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '&' - 16
+) - 9
+return - 51
+identifier '_AND' - 2
+; - 20
+} - 13
+else - 28
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '|' - 16
+) - 9
+{ - 12
+identifier 'ch' - 2
+= - 14
+identifier 'getNextChar' - 2
+( - 8
+) - 9
+; - 20
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '|' - 16
+) - 9
+return - 51
+identifier '_OR' - 2
+; - 20
+} - 13
+else - 28
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '[' - 16
+) - 9
+{ - 12
+identifier 'ch' - 2
+= - 14
+identifier 'getNextChar' - 2
+( - 8
+) - 9
+; - 20
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar ']' - 16
+) - 9
+return - 51
+identifier '_ARRAY' - 2
+; - 20
+} - 13
+else - 28
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '/' - 16
+) - 9
+{ - 12
+identifier 'ch' - 2
+= - 14
+identifier 'getNextChar' - 2
+( - 8
+) - 9
+; - 20
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '/' - 16
+) - 9
+{ - 12
+while - 29
+( - 8
+identifier 'ch' - 2
+!= - 37
+singlechar '\n' - 16
+) - 9
+{ - 12
+identifier 'ch' - 2
+= - 14
+identifier 'getNextChar' - 2
+( - 8
+) - 9
+; - 20
+} - 13
+return - 51
+identifier 'readToken' - 2
+( - 8
+) - 9
+; - 20
+} - 13
+else - 28
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '*' - 16
+) - 9
+{ - 12
+while - 29
+( - 8
+identifier 'ch' - 2
+!= - 37
+identifier 'EOF' - 2
+) - 9
+{ - 12
+identifier 'ch' - 2
+= - 14
+identifier 'getNextChar' - 2
+( - 8
+) - 9
+; - 20
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '*' - 16
+) - 9
+{ - 12
+identifier 'ch' - 2
+= - 14
+identifier 'getNextChar' - 2
+( - 8
+) - 9
+; - 20
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '/' - 16
+) - 9
+return - 51
+identifier 'readToken' - 2
+( - 8
+) - 9
+; - 20
+} - 13
+} - 13
+return - 51
+- - 18
+number '1' - 1
+; - 20
+} - 13
+else - 28
+return - 51
+identifier '_SLASH' - 2
+; - 20
+} - 13
+else - 28
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '"' - 16
+) - 9
+{ - 12
+identifier 'ch' - 2
+= - 14
+identifier 'getNextChar' - 2
+( - 8
+) - 9
+; - 20
+while - 29
+( - 8
+identifier 'ch' - 2
+!= - 37
+singlechar '"' - 16
+) - 9
+{ - 12
+identifier 'value' - 2
+= - 14
+identifier 'value' - 2
++ - 17
+identifier 'ch' - 2
+; - 20
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '\\' - 16
+) - 9
+identifier 'value' - 2
+= - 14
+identifier 'value' - 2
++ - 17
+identifier 'getNextChar' - 2
+( - 8
+) - 9
+; - 20
+identifier 'ch' - 2
+= - 14
+identifier 'getNextChar' - 2
+( - 8
+) - 9
+; - 20
+} - 13
+return - 51
+identifier '_QUOTE' - 2
+; - 20
+} - 13
+else - 28
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '\'' - 16
+) - 9
+{ - 12
+identifier 'ch' - 2
+= - 14
+identifier 'getNextChar' - 2
+( - 8
+) - 9
+; - 20
+if - 27
+( - 8
+identifier 'ch' - 2
+!= - 37
+singlechar '\'' - 16
+) - 9
+{ - 12
+identifier 'value' - 2
+= - 14
+identifier 'value' - 2
++ - 17
+identifier 'ch' - 2
+; - 20
+if - 27
+( - 8
+identifier 'ch' - 2
+== - 38
+singlechar '\\' - 16
+) - 9
+identifier 'value' - 2
+= - 14
+identifier 'value' - 2
++ - 17
+identifier 'getNextChar' - 2
+( - 8
+) - 9
+; - 20
+} - 13
+identifier 'getNextChar' - 2
+( - 8
+) - 9
+; - 20
+return - 51
+identifier '_SQUOTE' - 2
+; - 20
+} - 13
+return - 51
+- - 18
+number '1' - 1
+; - 20
+} - 13
+public - 56
+void - 33
+identifier 'testScanner' - 2
+( - 8
+) - 9
+identifier 'throws' - 2
+identifier 'Exception' - 2
+{ - 12
+if - 27
+( - 8
+identifier 'reader' - 2
+== - 38
+null - 49
+) - 9
+identifier 'throw' - 2
+new - 50
+identifier 'RuntimeException' - 2
+( - 8
+stringvalue 'open file first' - 4
+) - 9
+; - 20
+int - 30
+identifier 'token' - 2
+= - 14
+identifier 'readToken' - 2
+( - 8
+) - 9
+; - 20
+while - 29
+( - 8
+identifier 'token' - 2
+!= - 37
+- - 18
+number '1' - 1
+) - 9
+{ - 12
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_NUMBER' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue 'number '' - 4
++ - 17
+identifier 'value' - 2
++ - 17
+stringvalue ''' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_IDENTIFIER' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue 'identifier '' - 4
++ - 17
+identifier 'value' - 2
++ - 17
+stringvalue ''' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_NOT' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue 'not' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_QUOTE' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue 'stringvalue '' - 4
++ - 17
+identifier 'value' - 2
++ - 17
+stringvalue ''' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_PERCENT' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue '%' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_AND' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue '&&' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_SLASH' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue '/' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_LPAREN' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue '(' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_RPAREN' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue ')' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_LBRACK' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue '[' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_RBRACK' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue ']' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_LBRACE' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue '{' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_RBRACE' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue '}' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_ASSIGN' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue '=' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_CHAR' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue 'char' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_SQUOTE' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue 'singlechar '' - 4
++ - 17
+identifier 'value' - 2
++ - 17
+stringvalue ''' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_PLUS' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue '+' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_MINUS' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue '-' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_TIMES' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue '*' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_SEMIKOLON' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue ';' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_COMMA' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue ',' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_DOT' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue '.' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_GREATER' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue '>' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_LESS' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue '<' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_OR' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue '||' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_IF' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue 'if' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_ELSE' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue 'else' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_WHILE' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue 'while' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_INT' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue 'int' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_ARRAY' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue '[]' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_STRING' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue 'String' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_VOID' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue 'void' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_BOOLEAN' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue 'boolean' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_GEQ' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue '>=' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_LEQ' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue '<=' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_NOTEQ' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue '!=' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_EQUAL' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue '==' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_INCREMENT' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue '++' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_DECREMENT' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue '--' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_BREAK' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue 'break' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_CLASS' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue 'class' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_CONTINUE' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue 'continue' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_DEFAULT' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue 'default' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_IMPORT' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue 'import' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_DO' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue 'do' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_FINAL' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue 'final' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_NULL' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue 'null' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_NEW' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue 'new' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_RETURN' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue 'return' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_PRIVATE' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue 'private' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_PUBLIC' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue 'public' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_STATIC' - 2
+) - 9
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'print' - 2
+( - 8
+stringvalue 'static' - 4
+) - 9
+; - 20
+identifier 'System' - 2
+. - 22
+identifier 'out' - 2
+. - 22
+identifier 'println' - 2
+( - 8
+stringvalue ' - ' - 4
++ - 17
+identifier 'token' - 2
+) - 9
+; - 20
+identifier 'token' - 2
+= - 14
+identifier 'readToken' - 2
+( - 8
+) - 9
+; - 20
+} - 13
+} - 13
+public - 56
+void - 33
+identifier 'testScanner2' - 2
+( - 8
+) - 9
+identifier 'throws' - 2
+identifier 'Exception' - 2
+{ - 12
+identifier 'FileWriter' - 2
+identifier 'fstream' - 2
+= - 14
+new - 50
+identifier 'FileWriter' - 2
+( - 8
+stringvalue 'out.txt' - 4
+) - 9
+; - 20
+identifier 'BufferedWriter' - 2
+identifier 'out' - 2
+= - 14
+new - 50
+identifier 'BufferedWriter' - 2
+( - 8
+identifier 'fstream' - 2
+) - 9
+; - 20
+if - 27
+( - 8
+identifier 'reader' - 2
+== - 38
+null - 49
+) - 9
+identifier 'throw' - 2
+new - 50
+identifier 'RuntimeException' - 2
+( - 8
+stringvalue 'open file first' - 4
+) - 9
+; - 20
+int - 30
+identifier 'token' - 2
+= - 14
+identifier 'readToken' - 2
+( - 8
+) - 9
+; - 20
+while - 29
+( - 8
+identifier 'token' - 2
+!= - 37
+- - 18
+number '1' - 1
+) - 9
+{ - 12
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_NUMBER' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue 'number '' - 4
++ - 17
+identifier 'value' - 2
++ - 17
+stringvalue ''' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_IDENTIFIER' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue 'identifier '' - 4
++ - 17
+identifier 'value' - 2
++ - 17
+stringvalue ''' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_NOT' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue 'not' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_QUOTE' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue 'stringvalue '' - 4
++ - 17
+identifier 'value' - 2
++ - 17
+stringvalue ''' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_PERCENT' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue '%' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_AND' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue '&&' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_SLASH' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue '/' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_LPAREN' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue '(' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_RPAREN' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue ')' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_LBRACK' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue '[' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_RBRACK' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue ']' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_LBRACE' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue '{' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_RBRACE' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue '}' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_ASSIGN' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue '=' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_CHAR' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue 'char' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_SQUOTE' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue 'singlechar '' - 4
++ - 17
+identifier 'value' - 2
++ - 17
+stringvalue ''' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_PLUS' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue '+' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_MINUS' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue '-' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_TIMES' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue '*' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_SEMIKOLON' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue ';' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_COMMA' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue ',' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_DOT' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue '.' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_GREATER' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue '>' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_LESS' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue '<' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_OR' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue '||' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_IF' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue 'if' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_ELSE' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue 'else' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_WHILE' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue 'while' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_INT' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue 'int' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_ARRAY' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue '[]' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_STRING' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue 'String' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_VOID' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue 'void' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_BOOLEAN' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue 'boolean' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_GEQ' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue '>=' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_LEQ' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue '<=' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_NOTEQ' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue '!=' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_EQUAL' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue '==' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_INCREMENT' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue '++' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_DECREMENT' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue '--' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_BREAK' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue 'break' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_CLASS' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue 'class' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_CONTINUE' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue 'continue' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_DEFAULT' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue 'default' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_IMPORT' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue 'import' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_DO' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue 'do' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_FINAL' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue 'final' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_NULL' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue 'null' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_NEW' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue 'new' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_RETURN' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue 'return' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_PRIVATE' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue 'private' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_PUBLIC' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue 'public' - 4
+) - 9
+; - 20
+else - 28
+if - 27
+( - 8
+identifier 'token' - 2
+== - 38
+identifier '_STATIC' - 2
+) - 9
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue 'static' - 4
+) - 9
+; - 20
+identifier 'out' - 2
+. - 22
+identifier 'write' - 2
+( - 8
+stringvalue ' - ' - 4
++ - 17
+identifier 'token' - 2
+) - 9
+; - 20
+identifier 'out' - 2
+. - 22
+identifier 'newLine' - 2
+( - 8
+) - 9
+; - 20
+identifier 'token' - 2
+= - 14
+identifier 'readToken' - 2
+( - 8
+) - 9
+; - 20
+} - 13
+identifier 'out' - 2
+. - 22
+identifier 'close' - 2
+( - 8
+) - 9
+; - 20
+} - 13
+public - 56
+static - 57
+void - 33
+identifier 'main' - 2
+( - 8
+String - 32
+[] - 31
+identifier 'args' - 2
+) - 9
+{ - 12
+identifier 'Scanner' - 2
+identifier 's' - 2
+= - 14
+new - 50
+identifier 'Scanner' - 2
+( - 8
+) - 9
+; - 20
+identifier 'try' - 2
+{ - 12
+identifier 's' - 2
+. - 22
+identifier 'openFile' - 2
+( - 8
+stringvalue 'E:\\workspace\\Compiler1.2\\src\\Scanner.java' - 4
+) - 9
+; - 20
+identifier 's' - 2
+. - 22
+identifier 'testScanner2' - 2
+( - 8
+) - 9
+; - 20
+} - 13
+identifier 'catch' - 2
+( - 8
+identifier 'Exception' - 2
+identifier 'e' - 2
+) - 9
+{ - 12
+identifier 'e' - 2
+. - 22
+identifier 'getStackTrace' - 2
+( - 8
+) - 9
+; - 20
+} - 13
+} - 13
+} - 13

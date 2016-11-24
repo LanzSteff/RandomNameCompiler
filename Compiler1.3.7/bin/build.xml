@@ -1,0 +1,40 @@
+<project name="RandomName" basedir="." default="main">
+	
+	<property name="build.dir"		value="build"/>
+	<property name="classes.dir"	value="${build.dir}/classes"/>
+	<property name="jar.dir"		value="${build.dir}/jar"/>
+	<property name="src.dir"		value="."/>
+	
+	<property name="main-class" 	value="Main"/>
+	<property name="jar-file"		value="RandomName.jar"/>
+	
+	<target name="main" depends="jar">
+		<echo>Run: ant run</echo>
+	</target>
+
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+    	<delete file="${jar-file}"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="${classes.dir}"/>
+        <javac srcdir="${src.dir}" destdir="${classes.dir}"/>
+    </target>
+
+    <target name="jar" depends="compile">
+        <!-- <mkdir dir="${jar.dir}"/>
+        <jar destfile="${jar.dir}/${jar-file}" basedir="${classes.dir}"> -->
+
+	<jar destfile="${jar-file}" basedir="${classes.dir}">
+            <manifest>
+                <attribute name="Main-Class" value="${main-class}"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="run">
+        <java jar="${jar.dir}/${jar-file}" fork="true"/>
+    </target>
+
+</project>

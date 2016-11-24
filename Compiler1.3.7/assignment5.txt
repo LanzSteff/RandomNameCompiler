@@ -1,0 +1,71 @@
+int xy;
+xy = 150;
+
+method int even(int num);
+method int odd(int num);
+
+
+
+method void even_or_odd(int numbers, int num_len) {
+	int i;
+	i = 0;
+	while(i < num_len) {
+		int e;
+		e = even(5);
+		if((numbers[i] >= 0) && (e > 0)) {
+			String s;
+			s = "number is even\n";
+			printf(s);
+		}
+		elseif((numbers[i] >= 0) && (odd(numbers[i]) > 0)) {
+			String s;
+			s = "number is odd\n";
+			printf(s);
+		}
+		else {
+			String s;
+			s = "number is <0, sorry...";
+			printf(s);
+		}
+		i = i + 1;
+	}
+}
+
+method int main(int argc, String argv) {
+	int[] numbers;
+	numbers = new int[3];
+	numbers[0] = 3;
+	numbers[1] = 2;
+	numbers[2] = 7;
+	
+	int len;
+	len = 3;
+	
+	even_or_odd(numbers, len);
+	
+	return 0;
+}
+    
+
+
+method int even(int num) {
+	if(num == 0) {
+		return 1;
+	}
+	else {
+		int h;
+		h = odd(num-1);
+		return h;
+	}
+}
+    
+method int odd(int num) {
+	if(num == 0) {
+		return 0;
+	}
+	else {
+		int h;
+		h = even(num-1);
+		return h;
+	}
+}

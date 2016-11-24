@@ -1,0 +1,32 @@
+int y;
+y = 3;
+String s;
+
+method void printeven() {
+	s = "even";
+	printf(s);
+}
+
+method void printodd() {
+	s = "odd";
+	printf(s);
+}
+
+method void main() {
+
+	int z;
+	z = 18;
+	
+	if(y%2 == 0) {
+		printeven();
+	}
+	else {
+		printodd();
+	}
+	if(z%2 == 1) {
+		printodd();
+	}
+	else {
+		printeven();
+	}
+}

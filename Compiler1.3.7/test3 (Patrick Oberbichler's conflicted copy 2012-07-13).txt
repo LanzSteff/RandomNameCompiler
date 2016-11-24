@@ -1,0 +1,28 @@
+int y;
+y = 150;
+
+class felser {
+	int bier;
+	int yeah;
+};
+
+method int test() {
+	int x;
+	x = 123;
+}
+
+method void main() {
+	felser[] a;
+	a = new felser[12];
+	
+	int[] b;
+	b = new int[6];
+	
+	int i;
+	i = 897;
+	
+	b[3] = 1234;
+	a[10].bier = 5;
+	a[10].yeah = 6;
+	a[11].bier = y;
+}
